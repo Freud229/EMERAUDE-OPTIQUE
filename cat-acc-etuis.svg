@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="800" height="400">
+  <rect width="480" height="240" fill="#F5F0E8"/>
+  <g transform="translate(0,10)">
+          <rect x="80" y="85" width="320" height="90" rx="45" fill="#1F5C42"/>
+          <rect x="90" y="92" width="300" height="76" rx="38" fill="#245C3E"/>
+          <ellipse cx="240" cy="128" rx="130" ry="30" fill="rgba(255,255,255,0.06)"/>
+          <rect x="215" y="82" width="50" height="12" rx="6" fill="#B8934A"/>
+          <circle cx="240" cy="88" r="4" fill="#8A6A2A"/>
+        </g>
+  <rect x="0" y="190" width="480" height="50" fill="#1F5C42" opacity="0.92"/>
+  <text x="24" y="222" font-family="Georgia,serif" font-size="16" fill="white" font-weight="600">Étuis & cordons</text>
+</svg>

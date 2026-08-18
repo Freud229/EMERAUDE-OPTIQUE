@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="800" height="400">
+  <rect width="480" height="240" fill="#1A1A1A"/>
+  <g transform="translate(0,10)">
+          <ellipse cx="140" cy="120" rx="80" ry="55" fill="#111111" stroke="#C8A870" stroke-width="6"/>
+          <ellipse cx="340" cy="120" rx="80" ry="55" fill="#111111" stroke="#C8A870" stroke-width="6"/>
+          <line x1="220" y1="120" x2="260" y2="120" stroke="#C8A870" stroke-width="5"/>
+          <line x1="60" y1="105" x2="20" y2="90" stroke="#C8A870" stroke-width="5" stroke-linecap="round"/>
+          <line x1="420" y1="105" x2="460" y2="90" stroke="#C8A870" stroke-width="5" stroke-linecap="round"/>
+          <ellipse cx="140" cy="120" rx="55" ry="37" fill="rgba(50,50,50,0.8)"/>
+          <ellipse cx="340" cy="120" rx="55" ry="37" fill="rgba(50,50,50,0.8)"/>
+          <ellipse cx="120" cy="110" rx="18" ry="10" fill="rgba(255,255,255,0.08)" transform="rotate(-20,120,110)"/>
+          <ellipse cx="320" cy="110" rx="18" ry="10" fill="rgba(255,255,255,0.08)" transform="rotate(-20,320,110)"/>
+        </g>
+  <rect x="0" y="190" width="480" height="50" fill="#C8A870" opacity="0.92"/>
+  <text x="24" y="222" font-family="Georgia,serif" font-size="16" fill="white" font-weight="600">Solaires classiques</text>
+</svg>

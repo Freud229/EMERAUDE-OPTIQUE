@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="800" height="400">
+  <rect width="480" height="240" fill="#E8F4F8"/>
+  <g transform="translate(0,10)">
+          <circle cx="240" cy="115" r="80" fill="none" stroke="#1F5C42" stroke-width="6" stroke-dasharray="8 4"/>
+          <circle cx="240" cy="115" r="55" fill="rgba(95,174,74,0.08)" stroke="#5FAE4A" stroke-width="3"/>
+          <circle cx="240" cy="115" r="18" fill="rgba(31,92,66,0.15)"/>
+          <circle cx="222" cy="100" r="10" fill="rgba(255,255,255,0.6)"/>
+        </g>
+  <rect x="0" y="190" width="480" height="50" fill="#1F5C42" opacity="0.92"/>
+  <text x="24" y="222" font-family="Georgia,serif" font-size="16" fill="white" font-weight="600">Lentilles journalières</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Fond rond -->
+  <rect width="48" height="48" rx="12" fill="#1F5C42"/>
+  <!-- Forme lunettes -->
+  <path d="M4 24C12 12 36 12 44 24C36 36 12 36 4 24Z" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+  <!-- Verre gauche -->
+  <circle cx="18" cy="24" r="7" fill="none" stroke="#5FAE4A" stroke-width="2"/>
+  <!-- Verre droit -->
+  <circle cx="30" cy="24" r="7" fill="none" stroke="#5FAE4A" stroke-width="2"/>
+  <!-- Pont -->
+  <path d="M25 24H23" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <!-- Point émeraude centre gauche -->
+  <circle cx="18" cy="24" r="2.5" fill="#5FAE4A"/>
+  <!-- Point émeraude centre droit -->
+  <circle cx="30" cy="24" r="2.5" fill="#5FAE4A"/>
+</svg>

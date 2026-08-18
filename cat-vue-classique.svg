@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="800" height="400">
+  <rect width="480" height="240" fill="#F0EDE6"/>
+  <g transform="translate(0,10)">
+          <ellipse cx="140" cy="120" rx="80" ry="55" fill="none" stroke="#1F5C42" stroke-width="8" stroke-linecap="round"/>
+          <ellipse cx="340" cy="120" rx="80" ry="55" fill="none" stroke="#1F5C42" stroke-width="8" stroke-linecap="round"/>
+          <line x1="220" y1="120" x2="260" y2="120" stroke="#1F5C42" stroke-width="6"/>
+          <line x1="60" y1="105" x2="20" y2="90" stroke="#1F5C42" stroke-width="6" stroke-linecap="round"/>
+          <line x1="420" y1="105" x2="460" y2="90" stroke="#1F5C42" stroke-width="6" stroke-linecap="round"/>
+          <ellipse cx="140" cy="120" rx="50" ry="32" fill="rgba(95,174,74,0.08)"/>
+          <ellipse cx="340" cy="120" rx="50" ry="32" fill="rgba(95,174,74,0.08)"/>
+        </g>
+  <rect x="0" y="190" width="480" height="50" fill="#1F5C42" opacity="0.92"/>
+  <text x="24" y="222" font-family="Georgia,serif" font-size="16" fill="white" font-weight="600">Montures classiques</text>
+</svg>

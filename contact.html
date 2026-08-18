@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Éméraude Optique</title>
+<meta name="description" content="Contactez Éméraude Optique : boutiques de Cotonou, Porto-Novo et Parakou, WhatsApp et formulaire de contact.">
+<meta property="og:title" content="Contact — Éméraude Optique">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+<style>
+  .contact-grille{ display:grid; grid-template-columns:1fr 1fr; gap:3.5rem; align-items:flex-start; }
+  @media(max-width:980px){ .contact-grille{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <div class="conteneur nav">
+    <a href="index.html" class="marque">
+      <svg class="marque-symbole" viewBox="0 0 48 32" fill="none">
+        <path d="M2 16C10 4 38 4 46 16C38 28 10 28 2 16Z" stroke="#5B6570" stroke-width="2"/>
+        <circle cx="24" cy="16" r="7" fill="none" stroke="#1F5C42" stroke-width="2"/>
+        <path d="M24 11L27 16L24 21L21 16Z" fill="#5FAE4A"/>
+      </svg>
+      <span class="marque-texte">eméraude<span>Optique</span></span>
+    </a>
+    <nav>
+      <ul class="nav-liens" id="navLiens">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="catalogue.html">Catalogue</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="contact.html" class="actif">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="https://wa.me/2290161985354" class="btn btn-secondaire" target="_blank" rel="noopener">Nous écrire</a>
+      <button class="nav-burger" id="navBurger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero" style="background:var(--ivoire);">
+    <div class="conteneur">
+      <span class="eyebrow">Contact</span>
+      <h1 style="margin-top:.6rem;">Parlons de <em style="color:var(--corail)">votre vue</em></h1>
+      <p class="hero-texte">Passez dans l'une de nos boutiques, écrivez-nous sur WhatsApp, ou laissez-nous un message ci-dessous.</p>
+    </div>
+  </section>
+
+  <!-- BOUTIQUES -->
+  <section class="section section-blanche" style="padding-top:3rem;">
+    <div class="conteneur">
+      <div class="section-entete">
+        <div>
+          <span class="eyebrow">Nos boutiques</span>
+          <h2>Trois adresses au Bénin</h2>
+        </div>
+      </div>
+      <div class="adresses-grille">
+        <div class="carte-adresse">
+          <iframe class="carte-adresse-carte" loading="lazy"
+            src="https://www.google.com/maps?q=Sainte+Rita,+Cotonou,+Benin&output=embed"
+            allowfullscreen></iframe>
+          <div class="carte-adresse-corps">
+            <span class="carte-adresse-ville">Siège — Cotonou</span>
+            <h3>Sainte Rita</h3>
+            <p>100 m de la BOA, en allant vers Agontikon<br>05 BP 2519 Cotonou, Bénin</p>
+            <a href="tel:+22901417460" class="carte-adresse-tel">01 41 74 60 60</a>
+            <a href="tel:+22901619853" class="carte-adresse-tel">01 61 98 53 54</a>
+          </div>
+        </div>
+        <div class="carte-adresse">
+          <iframe class="carte-adresse-carte" loading="lazy"
+            src="https://www.google.com/maps?q=Boulevard+Avakpa,+Porto-Novo,+Benin&output=embed"
+            allowfullscreen></iframe>
+          <div class="carte-adresse-corps">
+            <span class="carte-adresse-ville">Porto-Novo</span>
+            <h3>Boulevard Avakpa</h3>
+            <p>À 30 m de Allo Mobile<br>05 BP 2519 Cotonou, Bénin</p>
+            <a href="tel:+22901443859" class="carte-adresse-tel">01 44 38 59 48</a>
+          </div>
+        </div>
+        <div class="carte-adresse">
+          <iframe class="carte-adresse-carte" loading="lazy"
+            src="https://www.google.com/maps?q=Boulevard+Wanssirou,+Parakou,+Benin&output=embed"
+            allowfullscreen></iframe>
+          <div class="carte-adresse-corps">
+            <span class="carte-adresse-ville">Parakou</span>
+            <h3>Boulevard Wanssirou</h3>
+            <p>À 30 m de l'École Primaire Wanssirou, immeuble DHL</p>
+            <a href="tel:+22901443860" class="carte-adresse-tel">01 44 38 60 04</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHATSAPP + FORMULAIRE -->
+  <section class="section section-ivoire-deep">
+    <div class="conteneur contact-grille">
+      <div>
+        <span class="eyebrow">Réponse rapide</span>
+        <h2>Écrivez-nous<br>sur WhatsApp</h2>
+        <p style="margin-top:1.1rem; max-width:44ch;">Le moyen le plus rapide de nous joindre. Dites-nous ce que vous cherchez, nous vous orientons vers la boutique la plus proche.</p>
+        <div class="hero-actions">
+          <a href="https://wa.me/2290161985354" class="btn btn-primaire" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+          <a href="tel:+2290161985354" class="btn btn-secondaire">Appeler</a>
+        </div>
+        <div class="separateur-verre"></div>
+        <p style="font-size:.85rem; line-height:1.8;">
+          (+229) 01 61 98 53 54 / 01 61 98 53 54<br>
+          RCCM RB/COT/18 B 22793 · IFU 3201810486339
+        </p>
+      </div>
+
+      <form class="form-contact" id="formulaireContact" novalidate>
+        <span class="eyebrow" style="display:inline-flex; margin-bottom:1rem;">Formulaire</span>
+        <h3 style="margin-bottom:1.4rem;">Laissez-nous un message</h3>
+        <div class="champ-ligne">
+          <div class="champ">
+            <label for="fNom">Nom</label>
+            <input type="text" id="fNom" name="nom" placeholder="Votre nom" required>
+          </div>
+          <div class="champ">
+            <label for="fTelephone">Téléphone</label>
+            <input type="tel" id="fTelephone" name="telephone" placeholder="Votre numéro" required>
+          </div>
+        </div>
+        <div class="champ">
+          <label for="fBoutique">Boutique concernée</label>
+          <select id="fBoutique" name="boutique">
+            <option value="Peu importe">Peu importe</option>
+            <option value="Cotonou - Sainte Rita">Cotonou — Sainte Rita</option>
+            <option value="Porto-Novo - Avakpa">Porto-Novo — Avakpa</option>
+            <option value="Parakou - Wanssirou">Parakou — Wanssirou</option>
+          </select>
+        </div>
+        <div class="champ">
+          <label for="fMessage">Message</label>
+          <textarea id="fMessage" name="message" placeholder="Votre demande (type de lunettes, rendez-vous, disponibilité...)" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primaire" style="width:100%; justify-content:center;">Envoyer</button>
+        <p class="form-note">Votre message sera envoyé directement dans la boîte mail d'Éméraude Optique.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pied">
+  <div class="conteneur">
+    <div class="pied-grille">
+      <div>
+        <div class="pied-marque">
+          <svg class="marque-symbole" viewBox="0 0 48 32" fill="none">
+            <path d="M2 16C10 4 38 4 46 16C38 28 10 28 2 16Z" stroke="#8B94A0" stroke-width="2"/>
+            <circle cx="24" cy="16" r="7" fill="none" stroke="#5FAE4A" stroke-width="2"/>
+            <path d="M24 11L27 16L24 21L21 16Z" fill="#5FAE4A"/>
+          </svg>
+          <span class="marque-texte">eméraude<span>Optique</span></span>
+        </div>
+        <p>Opticien au Bénin — lunetterie de vue et solaire, examens de la vue et lentilles de contact.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul class="pied-liste">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Nous contacter</h4>
+        <ul class="pied-liste">
+          <li><a href="tel:+2290161985354">(+229) 01 61 98 53 54</a></li>
+          <li><a href="tel:+22901619853">(+229) 01 61 98 53 54</a></li>
+          <li><a href="https://wa.me/2290161985354" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pied-bas">
+      <span>© 2026 Éméraude Optique. Tous droits réservés.</span>
+      <span>RCCM RB/COT/18 B 22793 · IFU 3201810486339</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/2290161985354" class="wa-flottant" target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.5 3.62 1.44 5.15L2 22l5.1-1.53a9.87 9.87 0 0 0 4.94 1.33h.01c5.46 0 9.9-4.45 9.9-9.91S17.5 2 12.04 2Zm0 18.06h-.01a8.13 8.13 0 0 1-4.15-1.14l-.3-.18-3.03.91.91-2.95-.2-.3a8.15 8.15 0 0 1-1.24-4.4c0-4.5 3.66-8.16 8.15-8.16 4.48 0 8.14 3.65 8.14 8.15 0 4.5-3.65 8.16-8.14 8.16Zm4.47-6.1c-.24-.12-1.44-.71-1.66-.79-.22-.08-.39-.12-.55.12-.16.24-.63.79-.77.95-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.19-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.55-1.33-.76-1.82-.2-.48-.4-.41-.55-.42h-.47c-.16 0-.42.06-.64.3-.22.24-.85.83-.85 2.03s.87 2.36.99 2.52c.12.16 1.71 2.61 4.14 3.66.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.44-.59 1.64-1.15.2-.57.2-1.05.14-1.15-.06-.1-.22-.16-.46-.28Z"/></svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+<script>
+(function () {
+
+  // ══════════════════════════════════════════════
+  //  REMPLACEZ CES 3 VALEURS PAR VOS CODES EMAILJS
+  var EMAILJS_PUBLIC_KEY  = "QPJ8HK-V2vz60FygJ";
+  var EMAILJS_SERVICE_ID  = "service_0ntlznf";
+  var EMAILJS_TEMPLATE_ID = "template_21miade";
+  // ══════════════════════════════════════════════
+
+  emailjs.init({ publicKey: EMAILJS_PUBLIC_KEY });
+
+  var form = document.getElementById("formulaireContact");
+  var btn  = form ? form.querySelector("button[type=submit]") : null;
+
+  if (!form) return;
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    var nom      = document.getElementById("fNom").value.trim();
+    var tel      = document.getElementById("fTelephone").value.trim();
+    var boutique = document.getElementById("fBoutique").value;
+    var message  = document.getElementById("fMessage").value.trim();
+
+    if (!nom || !tel || !message) {
+      alert("Veuillez remplir tous les champs obligatoires.");
+      return;
+    }
+
+    // Feedback visuel
+    btn.disabled = true;
+    btn.textContent = "Envoi en cours…";
+
+    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+      nom:      nom,
+      telephone: tel,
+      boutique: boutique,
+      message:  message,
+    })
+    .then(function () {
+      btn.textContent = "✓ Message envoyé !";
+      btn.style.background = "#1F5C42";
+      form.reset();
+      setTimeout(function () {
+        btn.disabled = false;
+        btn.textContent = "Envoyer le message";
+        btn.style.background = "";
+      }, 4000);
+    })
+    .catch(function (err) {
+      console.error("EmailJS error:", err);
+      btn.disabled = false;
+      btn.textContent = "Envoyer le message";
+      alert("Une erreur est survenue. Veuillez réessayer ou nous écrire sur WhatsApp.");
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
